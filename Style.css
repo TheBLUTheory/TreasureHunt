@@ -1,0 +1,99 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 12, 2018, 10:55:20 PM
+    Author     : Andres
+*/
+
+body{
+    cursor: zoom-in;
+    background-image: url("MAP.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+div.a{
+    position: absolute;
+    top: 300px; 
+    left:500px; 
+    width: 2px;
+    height: 2px;
+}
+div.b{
+    position: absolute;
+    top: 300px; 
+    left:225px;      
+}
+div.c{
+    position: absolute;
+    top: 50px; 
+    left:300px;      
+}
+div.d{
+    position: absolute;
+    top: 265px; 
+    left:0px;      
+}
+div.e{
+    position: absolute;
+    top: 7px; 
+    left:20px;      
+}
+div.f{
+    position: absolute;
+    top: 150px; 
+    left:350px;      
+}
+div.g{
+    position: absolute;
+    top: -30px; 
+    left:150px;      
+}
+div.h{
+    position: absolute;
+    top: 400px; 
+    left:500px;     
+}
+div.i{
+    position: absolute;
+    top: 200px; 
+    left:600px;      
+}
+div.j{
+    position: absolute;
+    top: 265px; 
+    left:-200px;      
+}
+div.k{
+    position: absolute;
+    top: 50px; 
+    left:-100px;      
+}
+div.l{
+    position: absolute;
+    top: 265px; 
+    left:225px;      
+}
+div.m{
+    position: absolute;
+    top: 100px; 
+    left:180px;      
+}
+
+
+img{
+    
+    height: 50%;
+    width:50%
+}
+
+
+div.h:hover
+{
+    transform: scale(2);
+    transition: 0.5s;
+}
